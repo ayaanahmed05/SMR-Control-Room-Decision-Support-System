@@ -39,8 +39,6 @@ The core mechanism operates within **Subsystem 4 (Decision Support)** using two 
 
 Instead of allowing a "blind click" action, the system triggers **Attentional Guidance** in Subsystem 5, dimming peripheral panels and highlighting the exact gauge the operator must verify first.
 
----
-
 ## Test Scenario: Steam Generator Tube Rupture (SGTR)
 
 To evaluate the system, we simulated an SGTR transient event:
@@ -50,6 +48,9 @@ To evaluate the system, we simulated an SGTR transient event:
 3. **Attentional Gate Trigger:** Decision Support generates an "Isolate Steam Generator" action but **restricts execution** because the operator is misdirected.
 4. **Adaptive UI:** The UI dims peripheral gauges and highlights the rising steam generator level indicator.
 5. **Synchronization:** Once eye-tracking confirms the operator has reviewed the indicator, the restriction lifts, enabling the execution path.
+
+---
+<img width="1167" height="611" alt="image" src="https://github.com/user-attachments/assets/38c09130-5e67-4225-9aa6-6867bda09061" />
 
 ---
 
